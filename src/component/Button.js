@@ -8,16 +8,28 @@ class Button extends React.Component {
   }
 
   render() {
+    let className = "component-button";
+
+    if (this.props.orange) {
+      className += " orange";
+    }
+    if (this.props.width) {
+        className += " width";
+    }
     return (
-      <button className="component-button" onClick={this.handleClick}>
-        {this.props.name}
-      </button>
+      <div className={className}>
+        <button onClick={this.handleClick}>
+          {this.props.name}
+        </button>
+      </div>
     )
   }
 }
 
 Button.propTypes = {
   name: React.PropTypes.string,
+  orange: React.PropTypes.bool,
+  wide: React.PropTypes.bool,
   clickHandler: React.PropTypes.func,
 };
 
