@@ -1,9 +1,14 @@
 import React from "react";
 
 class Button extends React.Component {
+
+  handleClick = () => {
+    console.log("I'm clicking...");
+  }
+
   render() {
     return (
-      <button>
+      <button onClick={this.handleClick}>
         {this.props.name}
       </button>
     )
