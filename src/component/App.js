@@ -1,6 +1,7 @@
 import React from "react";
 import Display from "./Display";
 import ButtonPanel from "./ButtonPanel";
+import calculate from "../logic/calculate";
 
 class App extends React.Component {
 
@@ -14,7 +15,7 @@ class App extends React.Component {
   }
 
   handleClick = (buttonName) => {
-    console.log("Clicking...", buttonName)
+    this.setState(calculate(this.state, buttonName));
   }
 
   render() {
