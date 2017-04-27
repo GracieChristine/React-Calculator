@@ -22,7 +22,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="component-app">
-        <Display value="this.state.next || this.state.total || '0'"/>
+        <h1 className="h1-text">A Responsive React Calculator</h1>
+        <Display value={this.state.next || this.state.total || "0"}/>
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );

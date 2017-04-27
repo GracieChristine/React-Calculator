@@ -17,6 +17,11 @@
   padding: 0;
 }
 
+.component-button button:focus {
+  outline: none;
+  background-color: #D0D0D0;
+}
+
 .component-button:last-child button {
   margin-right: 0;
 }
@@ -26,37 +31,41 @@
   color: white;
 }
 
+.component-button.orange button:focus {
+  background-color: #E5923D
+}
+
 @media (min-width: 200px) and (min-height: 200px) {
   .component-button button {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
 @media (min-width: 300px) and (min-height: 300px) {
   .component-button button {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
 @media (min-width: 400px) and (min-height: 400px) {
   .component-button button {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
 @media (min-width: 500px) and (min-height: 500px) {
   .component-button button {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 
 @media (min-width: 600px) and (min-height: 600px) {
   .component-button button {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 @media (min-width: 800px) and (min-height: 800px) {
   .component-button button {
-    font-size: 70px;
+    font-size: 60px;
   }
 }

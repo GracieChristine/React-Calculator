@@ -1,6 +1,11 @@
 .component-app {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;;
   flex-wrap: wrap;
   height: 100%;
+}
+
+.h1-text {
+  text-align: center;
+  
 }

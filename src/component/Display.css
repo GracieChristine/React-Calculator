@@ -10,6 +10,7 @@
 .component-display > div {
   font-size: 20px;
   padding: 8px 4px 0 4px;
+  border: 5px solid black;
 }
 
 @media (min-width: 200px) and (min-height: 200px) {
