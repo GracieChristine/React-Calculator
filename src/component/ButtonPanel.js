@@ -45,7 +45,7 @@ class ButtonPanel extends React.Component {
 }
 
 ButtonPanel.propTypes = {
-  clickHandler: React.propTypes.func,
+  clickHandler: React.PropTypes.func,
 };
 
 export default ButtonPanel;

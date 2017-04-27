@@ -13,7 +13,7 @@ class Display extends React.Component {
 }
 
 Display.propTypes = {
-  value: React.PropTypes.string
+  value: React.PropTypes.string,
 };
 
 export default Display;

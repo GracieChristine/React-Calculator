@@ -16,7 +16,7 @@ class Button extends React.Component {
 }
 
 Button.propTypes = {
-  name: React.propTypes.string,
+  name: React.PropTypes.string,
   clickHandler: React.PropTypes.func,
 };
 
