@@ -3,7 +3,7 @@ import React from "react";
 class Button extends React.Component {
 
   handleClick = () => {
-    console.log("I'm clicking...");
+    this.props.clickHandler(this.props.name);
   }
 
   render() {
@@ -17,6 +17,7 @@ class Button extends React.Component {
 
 Button.propTypes = {
   name: React.propTypes.string,
+  clickHandler: React.PropTypes.func,
 };
 
 export default Button;
