@@ -5,7 +5,36 @@ class ButtonPanel extends React.Component {
   render() {
     return (
       <div>
-        <Button/>
+        <div>
+          <Button />
+          <Button />
+          <Button />
+          <Button />
+        </div>
+        <div>
+          <Button />
+          <Button />
+          <Button />
+          <Button />
+        </div>
+        <div>
+          <Button />
+          <Button />
+          <Button />
+          <Button />
+        </div>
+        <div>
+          <Button />
+          <Button />
+          <Button />
+          <Button />
+        </div>
+        <div>
+          <Button />
+          <Button />
+          <Button />
+          <Button />
+        </div>
       </div>
     );
   }
