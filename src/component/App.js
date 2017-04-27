@@ -1,12 +1,15 @@
-import React from 'react';
+import React from "react";
+import Display from "./Display";
+import ButtonPanel from "./ButtonPanel";
 
- class App extends React.Component {
-   render() {
-     return (
-       <div>
-         Welcome to App
-       </div>
-     );
-   }
- }
- export default App;
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Dispaly />
+        <ButtonPanel />
+      </div>
+    );
+  }
+}
+export default App;
